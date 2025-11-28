@@ -4,7 +4,7 @@ import NextjsPage from "@/modules/nextjs";
 export default function NextJS() {
   return (
     <MainLayout>
-      <NextJSPage />
+      <NextjsPage />
     </MainLayout>
   );
 }

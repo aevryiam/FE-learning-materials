@@ -110,7 +110,7 @@ async function PostsPage() {
               <li>Dirender di browser</li>
               <li>Bisa gunakan hooks & state</li>
               <li>Bisa handle user interactions</li>
-              <li>Perlu tambah 'use client' directive</li>
+              <li>Perlu tambah &apos;use client&apos; directive</li>
               <li>Interactive components</li>
             </ul>
 
