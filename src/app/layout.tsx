@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CollabLearn FE | Frontend Engineering Learning Platform",
+  title: "FE Learning Collaboration",
   description:
-    "Learn Frontend Engineering from Figma to Production - Step by step tutorials",
+    "Learn Frontend from Figma to Production - Step by step tutorials",
 };
 
 export default function RootLayout({

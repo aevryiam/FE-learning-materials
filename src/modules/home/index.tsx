@@ -53,11 +53,11 @@ export default function HomePage() {
         />
         <div className="flex flex-col">
           <h1 className="text-4xl font-bold mb-4">
-            CollabLearn Frontend Engineering
+            Webdev Learning Collaboration
           </h1>
           <p className="text-xl text-blue-100 max-w-2xl mx-auto">
-            Pelajari step-by-step pengembangan Frontend modern dari Figma hingga
-            production-ready website
+            Belajar basic front-end development secara terstruktur dan kolaboratif
+            bersama teman-teman.
           </p>
         </div>
       </div>
