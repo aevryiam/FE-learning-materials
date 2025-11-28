@@ -1,36 +1,115 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CollabLearn Frontend Engineering
 
-## Getting Started
+Website pembelajaran Frontend Engineering dengan materi lengkap dari Figma slicing hingga production-ready website.
 
-First, run the development server:
+## 🎯 Materi Pembelajaran
+
+1. **Teknik "Slicing" dari Figma ke Kode**
+
+   - Bedah Layout (Structure Analysis)
+   - Export Assets (SVG, WebP/JPG)
+   - Structure First Development
+   - Styling dengan Tailwind CSS
+
+2. **Tailwind CSS**
+
+   - Konsep Utility-First
+   - Responsive Design
+   - Component Patterns
+   - Best Practices
+
+3. **Next.js dengan App Router**
+
+   - Server vs Client Components
+   - File-based Routing
+   - Layouts & Navigation
+   - Data Fetching Patterns
+
+4. **React Redux**
+
+   - Redux Toolkit Setup
+   - Slices & Actions
+   - Async Thunks
+   - Best Practices
+
+5. **Data Fetching**
+
+   - Server-Side Fetching
+   - Client-Side Fetching
+   - Error Handling
+   - Performance Optimization
+
+6. **Responsive Design**
+   - Mobile-First Approach
+   - Breakpoints & Grid
+   - Typography & Spacing
+   - Media Optimization
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (LTS version)
+- VS Code
+- Git
+- Figma account
+
+### Installation
 
 ```bash
+# Clone repository
+git clone <repository-url>
+cd fe
+
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) dengan browser Anda.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+├── public/               # Static files
+├── src/
+│   ├── app/             # App Router pages
+│   ├── components/      # Reusable components
+│   │   ├── Contexts/    # Redux store & contexts
+│   │   ├── Element/     # Small UI elements
+│   │   └── Layout/      # Layout components
+│   ├── modules/         # Page modules
+│   ├── utils/           # Utility functions
+│   │   ├── helpers/     # Helper functions
+│   │   └── hooks/       # Custom hooks
+│   └── styles/          # CSS styles
+```
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework**: Next.js 14+ (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **State Management**: Redux Toolkit
+- **Development**: ESLint, Prettier
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 💡 Learning Path
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Mulai dengan [Home Page](http://localhost:3000) untuk overview
+2. Ikuti materi secara berurutan
+3. Practice dengan membuat project sendiri
+4. Join komunitas untuk sharing
 
-## Deploy on Vercel
+## 🤝 Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📝 License
+
+This project is for educational purposes.
+
+---
+
+**Happy Learning! 🚀**
